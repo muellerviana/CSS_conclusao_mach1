@@ -1,2 +1,84 @@
-
+@media (max-width: 1096px) {
+  .sug_info p {
+   display: none;
+  }
+ }
+ 
+ @media (max-width: 992px) {
+   #profile {
+     width:36%;
+     background-image: url(../images/cover_med.jpg);
+   }
+   
+   #timeline {
+     width: 64%;
+   }
+ 
+   #suggestions {
+     display: none;
+   }
+ }
+ 
+ @media (max-width: 610px) {
+   #logo {
+     height: 35px;
+     width: 35px;
+     margin: 2px 20px;
+     background-image: url(../images/logo-peq.png);
+     background-repeat: no-repeat; 
+     background-size: contain;
+   
+   }
+ 
+   #profile{
+     width: 33%;
+     background-image: url(../images/cover_peq.jpg);
+   }
+ 
+   #timeline {
+     width: 59%;
+   }
+ 
+   #post img {
+     display: none;
+   }
+ 
+   #btns {
+     display: block;
+   }
+   #postar {
+     margin-top: 5px;
+     width: 100%;
+   }
+  }
+ 
+  @media (max-width: 462px) {
+ 
+   #search {
+     height: 30px;
+     width: 130px;
+   }
+ }
+ 
+ @media (max-width: 450px) {
+ 
+  #profile, .right_menu ul li:first-child  {
+   display: none;
+  }
+ 
+  #timeline {
+   width: 100%;
+  }
+ }
+ 
+ @media (max-width: 377px) {
+   #search {
+    width: 100px;
+   }
+ 
+   .right_menu ul li:not(:last-child) {
+     display: none;
+    }
+  }
+ 
 
