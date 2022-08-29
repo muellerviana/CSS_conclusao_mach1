@@ -4,4 +4,11 @@
 @import url(./style.css);
 @import url(./responsive.css);
 
-
+:root {
+  --content_base: #eeeeee;
+  --primmary: #eeeeee;
+  --seccondary: #c9c9c9;
+  --tertiary: #575864;
+  --quaternary: #090922;
+  --color_base: rgb(32, 32, 32);
+}
