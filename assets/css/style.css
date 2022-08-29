@@ -6,11 +6,10 @@
 
 :root {
   --content_base: #eeeeee;
-
   --primmary: #eeeeee;
   --seccondary: #c9c9c9;
-  --tertiary: #888888;
-  --quaternary: #4b4a4a;
+  --tertiary: #575864;
+  --quaternary: #090922;
   --color_base: rgb(32, 32, 32);
 
 }
@@ -59,7 +58,7 @@ button:hover, a {
 }
 
 body {
-  background-color: var(--seccondary);
+  background-color: rgb(15, 27, 54);
   font-family: 'Cairo', sans-serif;
   line-height: 1.1;
   color: var(--quaternary);
@@ -194,7 +193,7 @@ textarea {
 }
 
 #profile {
-  height: 600px;
+  min-height: 600px;
   width: 28%;
   background-image: url(../images/cover1.jpg);
   background-repeat: no-repeat;
